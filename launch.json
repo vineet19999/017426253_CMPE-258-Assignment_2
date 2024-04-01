@@ -1,0 +1,31 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: MyTorchTrainer",
+            "type": "python",
+            "request": "launch",
+            "program": "C:/Users/VINEET/Downloads/CMPE-258-Assignment_2-main/TorchClassifier/myTorchTrainer.py"
+            ,
+            "console": "integratedTerminal",
+            "args": [
+                "--data_name", "PISTACHIO DATASET", 
+                "--data_type", "torchvisiondataset",
+                "--data_path", "/Users/shashu/Desktop/258/Assignment-2/assignment-2/CMPE-258",
+                "--model_name", "mlpmodel1",
+                "--learningratename", "MultiStepLR",
+                "--optimizer", "AdamW",
+                "--learning-rate", "0.001",
+                "--epochs", "20"
+            ]
+        }
+    ]
+}
